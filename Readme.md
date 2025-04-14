@@ -7,18 +7,18 @@ This is a simple PHP "Hello, World!" application containerized using Docker. It'
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/sherSheryar/php-docker-hello-world.git
-cd php-docker-hello-world
+git clone https://github.com/shersheryar/dockerized-php-app.git
+cd dockerized-php-app
 ```
 
 2. **Build the Docker image**
 
 ```bash
-docker build -t php-hello-world .
+docker build -t dockerized-php-app .
 ```
 
 3. **Run the container**
 
 ```bash
-docker run -p 5000:80 php-hello-world
+docker run -p 5000:80 dockerized-php-app
 ```
